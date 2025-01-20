@@ -3,7 +3,7 @@ const colorMode = useColorMode()
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <!-- <div class="container mx-auto">
     <p class="p-4 pb-2">
       <Select v-model="colorMode.preference">
         <SelectTrigger  class="w-40">
@@ -21,8 +21,8 @@ const colorMode = useColorMode()
         <AlertDescription>
           This is a demo of a Nuxt.js app with Tailwind CSS and Radix UI components.
         </AlertDescription>
-      </Alert>
+      </Alert> -->
       <slot />
-    </div>
-  </div>
+    <!-- </div>
+  </div> -->
 </template>
